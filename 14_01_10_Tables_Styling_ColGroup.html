@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Colgroup</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2>Colgroup</h2>
+    <p>
+        Add the a colgroup with a col element 
+        that spans over two columns to define 
+        a style for the two columns:
+    </p>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: bisque;">        
+        </colgroup>
+        <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+            <td>55</td>
+            <td>66</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>222</td>
+            <td>333</td>
+            <td>444</td>
+            <td>555</td>
+            <td>666</td>
+            <td>777</td>
+        </tr>
+    </table>
+
+    <h2>Multiple Col Elements</h2>
+    <p>Add multiple col elements in the colgroup:</p>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: bisque;">        
+            <col span="3" style="background-color: aqua;">
+        </colgroup>
+        <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+            <td>55</td>
+            <td>66</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>222</td>
+            <td>333</td>
+            <td>444</td>
+            <td>555</td>
+            <td>666</td>
+            <td>777</td>
+        </tr>
+    </table>
+
+    <h2>Empty Colgroups</h2>
+    <p>
+        Add "empty" col elements that represents
+        the columns before the columns you want to style:
+    </p>
+    <table>
+        <colgroup>
+            <col span="2">        
+            <col span="3" style="background-color: aqua;">
+        </colgroup>
+        <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+            <td>55</td>
+            <td>66</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>222</td>
+            <td>333</td>
+            <td>444</td>
+            <td>555</td>
+            <td>666</td>
+            <td>777</td>
+        </tr>
+    </table>
+
+    <h2>Hide Columns</h2>
+    <p>
+        You can hide specific columns 
+        with the visibility property:
+    </p>
+
+    <table>
+        <colgroup>
+            <col span="2">        
+            <col span="3" style="visibility: collapse;">
+        </colgroup>
+        <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+            <td>55</td>
+            <td>66</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>222</td>
+            <td>333</td>
+            <td>444</td>
+            <td>555</td>
+            <td>666</td>
+            <td>777</td>
+        </tr>
+    </table>
+
+    
+
+    
+    
+</body>
+</html>

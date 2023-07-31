@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Class Attribute</title>
+    <style>
+        .city {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .note {
+            font-size: 120%;
+            color: red;
+        }
+        .main {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Div Element</h2>
+    <div class="city">
+        <h3>London</h3>
+        <p>London is the capital of England.</p>
+    </div>
+
+    <div class="city">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div class="city">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <hr>
+    <h2>Span Element</h2>
+    <h3>My <span class="note">Important</span> Heading</h3>
+    <p>This is some <span class="note">important</span> text.</p>
+    <hr>
+
+    <h2>Multiple Classes</h2>
+    <p>
+        Here, all three h3 elements belongs to the "city" class. 
+        In addition, London also belongs to the "main" class, which center-aligns the text.
+    </p>
+
+    <h3 class="city  main">London</h3>
+    <h3 class="city">Paris</h3>
+    <h3 class="city">Tokyo</h3>
+
+
+</body>
+</html>
